@@ -20,7 +20,6 @@ function App() {
               <Route path="/cart" element={<Cart />} />
             </Routes>
           </main>
-          <script async data-id="4816512115" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
           <Footer />
         </div>
       </CartProvider>
