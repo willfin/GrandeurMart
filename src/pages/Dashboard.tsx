@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Truck, CreditCard, Headphones } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export const Dashboard = () => {
   return (
@@ -17,7 +18,9 @@ export const Dashboard = () => {
             <h1 className="text-5xl font-bold mb-4">Welcome to GrandeurMart</h1>
             <p className="text-xl mb-8">Your premier destination for cutting-edge electronics and gadgets</p>
             <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition">
+              <Link to="/products">
               Shop Now
+              </Link>
             </button>
           </div>
         </div>
