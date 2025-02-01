@@ -90,7 +90,6 @@ export const Dashboard = () => {
           </div>
         </div>
       </section>
-      <script async data-id="4816512115" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
     </div>
   );
 };
